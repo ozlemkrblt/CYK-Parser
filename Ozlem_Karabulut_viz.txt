@@ -1,0 +1,40 @@
+Kevin eats
+parses: 1
+graph{
+S -> {NP_0 -> VP_1}}
+the student eats a cookie
+parses: 1
+graph{
+S -> {NP -> {Det_0 -> N_1} -> VP -> {V1_2 -> NP -> {Det_3 -> N_4}}}}
+the telescope sees the teacher
+parses: 1
+graph{
+S -> {NP -> {Det_0 -> N_1} -> VP -> {V1_2 -> NP -> {Det_3 -> N_4}}}}
+the student gives Kevin the telescope
+parses: 1
+graph{
+S -> {NP -> {Det_0 -> N_1} -> VP -> {V2_2 -> X1 -> {NP_3 -> NP -> {Det_4 -> N_5}}}}}
+a teacher says that a student eats
+parses: 1
+graph{
+S -> {NP -> {Det_0 -> N_1} -> VP -> {VC_2 -> X2 -> {T_3 -> S -> {NP -> {Det_4 -> N_5} -> VP_6}}}}}
+a student says that the teacher says that Kevin sees a cookie
+parses: 1
+graph{
+S -> {NP -> {Det_0 -> N_1} -> VP -> {VC_2 -> X2 -> {T_3 -> S -> {NP -> {Det_4 -> N_5} -> VP -> {VC_6 -> X2 -> {T_7 -> S -> {NP_8 -> VP -> {V1_9 -> NP -> {Det_10 -> N_11}}}}}}}}}}
+Kevin sees the teacher with a telescope
+parses: 1
+graph{
+S -> {NP_0 -> VP -> {V1_1 -> NP -> {NP -> {Det_2 -> N_3} -> PP -> {Prep_4 -> NP -> {Det_5 -> N_6}}} VP -> {V1_1 -> NP -> {Det_2 -> N_3}} -> PP -> {Prep_4 -> NP -> {Det_5 -> N_6}}}}}
+Kevin sees the teacher with a telescope with a student
+parses: 1
+graph{
+S -> {NP_0 -> VP -> {V1_1 -> NP -> {NP -> {Det_2 -> N_3} -> PP -> {Prep_4 -> NP -> {NP -> {Det_5 -> N_6} -> PP -> {Prep_7 -> NP -> {Det_8 -> N_9}}}} NP -> {NP -> {Det_2 -> N_3} -> PP -> {Prep_4 -> NP -> {Det_5 -> N_6}}} -> PP -> {Prep_7 -> NP -> {Det_8 -> N_9}}} VP -> {V1_1 -> NP -> {Det_2 -> N_3}} -> PP -> {Prep_4 -> NP -> {NP -> {Det_5 -> N_6} -> PP -> {Prep_7 -> NP -> {Det_8 -> N_9}}}} VP -> {V1_1 -> NP -> {NP -> {Det_2 -> N_3} -> PP -> {Prep_4 -> NP -> {Det_5 -> N_6}}} VP -> {V1_1 -> NP -> {Det_2 -> N_3}} -> PP -> {Prep_4 -> NP -> {Det_5 -> N_6}}} -> PP -> {Prep_7 -> NP -> {Det_8 -> N_9}}}}}
+the teacher sees that Kevin eats a student with the telescope
+parses: 1
+graph{
+S -> {NP -> {Det_0 -> N_1} -> VP -> {VC_2 -> X2 -> {T_3 -> S -> {NP_4 -> VP -> {V1_5 -> NP -> {NP -> {Det_6 -> N_7} -> PP -> {Prep_8 -> NP -> {Det_9 -> N_10}}} VP -> {V1_5 -> NP -> {Det_6 -> N_7}} -> PP -> {Prep_8 -> NP -> {Det_9 -> N_10}}}}} VP -> {VC_2 -> X2 -> {T_3 -> S -> {NP_4 -> VP -> {V1_5 -> NP -> {Det_6 -> N_7}}}}} -> PP -> {Prep_8 -> NP -> {Det_9 -> N_10}}}}}
+a cookie gives the telescope with a student the teacher
+parses: 1
+graph{
+S -> {NP -> {Det_0 -> N_1} -> VP -> {V2_2 -> X1 -> {NP -> {NP -> {Det_3 -> N_4} -> PP -> {Prep_5 -> NP -> {Det_6 -> N_7}}} -> NP -> {Det_8 -> N_9}}}}}
